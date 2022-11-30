@@ -12,7 +12,6 @@
 body{
     overflow: hidden;
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5) );
-    background-image: url(site.jpg) ;
     background-size: cover;
     background-position:center;
     width: 100%;
@@ -21,13 +20,14 @@ body{
 
 .container{
     display: flex;
-    margin: 100px;
+    align-items: center;
+    margin: 10px 50px;
     width: 1200px;
+    height: 100%;
 }
 
 .background {
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5) );
-    background-image: url(site.jpg) ;
     background-size: cover;
     background-position:center; 
     width: 100%;
@@ -58,17 +58,24 @@ main{
     text-align: center;
 }
 h1{
-    color: rgb(235, 92, 56);
-    font-size: 24;
+    color: rgb(247, 247, 247);
+    font-size: 24px;
     font-weight: 600;
 }
 
 h2{
-    color: rgb(235, 56, 65);
-    font-size: 18;
+    color: rgb(248, 248, 248);
+    font-size: 18px;
     font-weight: 300;
 }
 
 p{
     color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+
+img{
+    border-radius: 8550px;
+    border-style: hidden;
 }
