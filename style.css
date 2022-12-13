@@ -11,7 +11,8 @@
 
 body{
     overflow: hidden;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5) );
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 9%, rgba(14,8,8,0.8939950980392157) 55%, rgba(51,27,27,0.9528186274509804) 75%, rgba(228,47,47,0.75) 93%);
     background-size: cover;
     background-position:center;
     width: 100%;
@@ -27,7 +28,8 @@ body{
 }
 
 .background {
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5) );
+    background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 9%, rgba(14,8,8,0.8939950980392157) 55%, rgba(51,27,27,0.9528186274509804) 75%, rgba(228,47,47,0.75) 100%);
     background-size: cover;
     background-position:center; 
     width: 100%;
