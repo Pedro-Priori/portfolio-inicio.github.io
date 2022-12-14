@@ -11,8 +11,7 @@
 
 body{
     overflow: hidden;
-    background: rgb(0,0,0);
-    background: radial-gradient(circle, rgba(0,0,0,1) 9%, rgba(14,8,8,0.8939950980392157) 55%, rgba(51,27,27,0.9528186274509804) 75%, rgba(228,47,47,0.75) 93%);
+background-image: url(/img/black_squars.jpg);
     background-size: cover;
     background-position:center;
     width: 100%;
@@ -21,15 +20,15 @@ body{
 
 .container{
     display: flex;
+    flex-direction: column;
     align-items: center;
-    margin: 10px 50px;
+    margin: 10px 50px 10px 150px;
     width: 1200px;
     height: 100%;
 }
 
 .background {
-    background: rgb(0,0,0);
-background: radial-gradient(circle, rgba(0,0,0,1) 9%, rgba(14,8,8,0.8939950980392157) 55%, rgba(51,27,27,0.9528186274509804) 75%, rgba(228,47,47,0.75) 100%);
+    
     background-size: cover;
     background-position:center; 
     width: 100%;
@@ -52,6 +51,9 @@ header{
     cursor: pointer;
 }
 
+a{
+    color: white;
+}
 .cabecalho-link a{
     color: white;
 }
@@ -60,9 +62,10 @@ main{
     text-align: center;
 }
 h1{
-    color: rgb(247, 247, 247);
-    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-size: 34px;
     font-weight: 600;
+    padding: 12px;
 }
 
 h2{
@@ -78,6 +81,9 @@ p{
 
 
 img{
-    border-radius: 8550px;
     border-style: hidden;
+}
+
+footer{
+   padding: 20px;
 }
